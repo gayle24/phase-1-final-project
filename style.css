@@ -54,12 +54,33 @@ body {
     cursor: pointer;
 }
 
+#main {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
 /* styling content section */
 .content{
-    background-color: #ddd;
+    display: table-cell;
+    width: 60%;
+    height: 100%;
+    background-color: rgb(125, 241, 207);
     border-radius: 25px 45px;
     text-align: center;
     text-decoration: none;
     justify-content: center;
+}
+
+.review{
+    display: table-cell;
+    width: 40%;
+    height: 100%;
+    background-color: rgb(125, 241, 207);
+    border-radius: 25px 45px;
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;
+    
 }
 
