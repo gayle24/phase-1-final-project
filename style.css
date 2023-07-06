@@ -1,22 +1,3 @@
-#nav {
-    height: 10%;
-    width: 100%;
-    background-color: darkcyan;
-    color: black;
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css');
 
-}
 
-#parent {
-    display: table;
-}
-
-#display {
-    display: table-cell;
-    height: 90%;
-    width: 60%;
-
-}
-
-#book {
-    display: table-cell;
-}
