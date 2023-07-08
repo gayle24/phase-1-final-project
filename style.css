@@ -70,11 +70,12 @@ body {
 }
 
 .review{
-    background-color: rgb(202, 245, 232);
+    background-color: gray;
     border-radius: 25px 45px;
     text-align: center;
     text-decoration: none;
     justify-content: center;
+    width: 100%;
     
 }
 
@@ -83,3 +84,14 @@ body {
     border-radius: 25px 45px;
 }
 
+textarea{
+    color: black;
+    background-color: rgb(202, 245, 232); ;
+    font-size: 16px;
+    width: 100%;
+    border: none;
+    border-radius: 12px;
+    padding: 10px 20px;
+    text-align: center;
+    display: block;
+}
