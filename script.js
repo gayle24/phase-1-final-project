@@ -26,10 +26,6 @@ document.addEventListener('DOMContentLoaded', () => {
             let bedcap = document.createElement('p');
             bedcap.textContent = `Available bed capacity: ${data.bedCapacity}`;
             list.appendChild(bedcap);
-            let book = document.createElement('input');
-            book.setAttribute("type", "submit");
-            book.setAttribute("value", "Book");
-            list.appendChild(book);
 
             display.appendChild(list)
        });
@@ -187,4 +183,32 @@ booking.addEventListener("click", ()=>{
     let p4 = document.createElement("p");
     p4.innerHTML = "View my personal website here: <a href='https://gayle24.github.io/personal-website/'>https://gayle24.github.io/personal-website/</a>";
     display.appendChild(p4)
+  });
+
+  home.addEventListener("click", ()=>{
+    display.innerHTML = "";
+    fetch('https://dark-gold-scarab-shoe.cyclic.app/hospitals')
+    .then(resp => resp.json())
+    .then(data => {
+        data.forEach(data => {
+            let list = document.createElement('div')
+            
+            list.setAttribute('class', "list")
+
+            let name = document.createElement('p');
+            name.textContent = `${data.name}`;
+            list.appendChild(name);
+            let location = document.createElement('p');
+            location.textContent = `${data.location}`;
+            list.appendChild(location);
+            let zipcode = document.createElement('p');
+            zipcode.textContent = `Zipcode: ${data.zipCode}`;
+            list.appendChild(zipcode);
+            let bedcap = document.createElement('p');
+            bedcap.textContent = `Available bed capacity: ${data.bedCapacity}`;
+            list.appendChild(bedcap);
+            
+            display.appendChild(list)
+       })
   })
+})
