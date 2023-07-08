@@ -19,3 +19,8 @@ MedInfo is a web application designed to simplify the process of locating hospit
 MedInfo aims to streamline the hospital search and appointment booking process, making it convenient for individuals to find healthcare facilities in their desired state. It provides a platform for users to access essential information, book appointments, and share their experiences, fostering transparency and aiding in informed decision-making.
 
 Whether someone needs urgent medical attention or wants to leave a review for a previous hospital visit, MedInfo offers a comprehensive solution to meet these needs in a user-friendly manner.
+
+## Conclusion
+
+MedInfo is a valuable web application that simplifies the process of locating hospitals, booking appointments, and leaving reviews. Its intuitive design and seamless functionality make it a go-to resource for individuals seeking healthcare services. By providing easy access to vital information and fostering user engagement, MedInfo empowers users to make informed healthcare decisions.
+
