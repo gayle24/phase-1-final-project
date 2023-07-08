@@ -54,33 +54,32 @@ body {
     cursor: pointer;
 }
 
-#main {
-    display: table;
-    width: 100%;
-    height: 100%;
-}
 
 /* styling content section */
 .content{
-    display: table-cell;
-    width: 60%;
-    height: 100%;
-    background-color: rgb(125, 241, 207);
+    border-style: groove;
     border-radius: 25px 45px;
     text-align: center;
     text-decoration: none;
     justify-content: center;
+    }
+
+#display{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .review{
-    display: table-cell;
-    width: 40%;
-    height: 100%;
-    background-color: rgb(125, 241, 207);
+    background-color: rgb(202, 245, 232);
     border-radius: 25px 45px;
     text-align: center;
     text-decoration: none;
     justify-content: center;
     
+}
+
+.list{
+    border-style: double;
+    border-radius: 25px 45px;
 }
 
