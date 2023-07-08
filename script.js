@@ -107,3 +107,13 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });   
     
+const handleHospitalNameClick = () => {
+    // Show the appointment booking section
+    const appointmentSection = document.getElementById('appointmentSection');
+    appointmentSection.style.display = 'block';
+  };
+
+  const hospitalNameElements = document.querySelectorAll('.list > p:first-child');
+    hospitalNameElements.forEach(element => {
+      element.addEventListener('click', handleHospitalNameClick);
+    });
