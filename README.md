@@ -9,13 +9,13 @@ You can access the site through the live link:
 
 ## Features
 
-*Hospital Search*: Users can input their desired state in the search bar to find hospitals within that state. The search results dynamically update as the user types, providing instant feedback.
+***Hospital Search***: Users can input their desired state in the search bar to find hospitals within that state. The search results dynamically update as the user types, providing instant feedback.
 
-*Hospital Listings*: The search results are displayed in a visually appealing format, presenting hospital details in a structured manner. Each hospital listing includes the name, location, zip code, and available bed capacity.
+***Hospital Listings***: The search results are displayed in a visually appealing format, presenting hospital details in a structured manner. Each hospital listing includes the name, location, zip code, and available bed capacity.
 
-*Appointment Booking*: Users can click on the "Book" button associated with each hospital to initiate the appointment booking process. This opens a form where users can describe their emergency or medical needs and specify the urgency level of the appointment (urgent or minor).
+***Appointment Booking***: Users can click on the "Book" button associated with each hospital to initiate the appointment booking process. This opens a form where users can describe their emergency or medical needs and specify the urgency level of the appointment (urgent or minor).
 
-*Reviews*: Users can navigate to the "Reviews" section, where they can leave feedback and reviews about their experiences with specific hospitals. This allows users to share their opinions and help others make informed decisions.
+***Reviews***: Users can navigate to the "Reviews" section, where they can leave feedback and reviews about their experiences with specific hospitals. This allows users to share their opinions and help others make informed decisions.
 
 ## Purpose
 
